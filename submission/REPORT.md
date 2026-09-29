@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602703
 - **Lớp:** K4-L3A
 - **Repository URL:** https://github.com/VuDuyDiepAI/K4-L3A-Day13-VuDuyDiep-2A202602703-Monitoring-LLMOps
-- **Commit SHA cuối:** Chưa chốt; HEAD hiện tại là `13b6066` nhưng working tree còn thay đổi chưa commit.
+- **Commit code/evidence SHA:** `914f42cadb7985844b6d9755995ccbc2b31e918e` (commit Hoàn thành lab Day 13). Báo cáo này có một commit docs riêng ghi lại SHA.
 - **Challenge ID:** `day13-k4-l3a-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3a-2A202602703`
 
@@ -103,5 +103,5 @@ Các đường dẫn dưới đây tính từ thư mục `submission/`. Các ả
 - [x] Đã xác minh Trace ID CP2 baseline/v1 và candidate/v2 theo correlation ID; dùng cùng input (mục 5 và evidence 15).
 - [x] Đã lưu xác nhận API tắt incident `rag_slow` (evidence 16).
 - [x] Final local checks đã qua: pytest 28 passed, log validator 100/100 trên 90 record, dashboard validator 6/6; các output đã lưu trong evidence.
-- [ ] Sau commit chứa code và evidence, ghi SHA của commit đó vào báo cáo. Các đường dẫn evidence hiện đã được kiểm tra (20/20 tồn tại).
+- [x] Ghi SHA commit code/evidence `914f42cadb7985844b6d9755995ccbc2b31e918e`; đã kiểm tra 20/20 đường dẫn evidence.
 - [x] Đã xác nhận `.env`, `config/challenge.json` và `.vev/` đều bị Git bỏ qua; quét các file nộp không thấy pattern credentials phổ biến. Chỉ dùng PII tổng hợp trong ảnh test scrubber.
