@@ -1,0 +1,2 @@
+﻿{"ts":"2026-09-29T12:42:46.851999Z","event":"request_received","correlation_id":"req-3fef08f9","feature":"monitoring","env":"dev"}
+{"ts":"2026-09-29T12:42:51.603872Z","event":"response_sent","correlation_id":"req-3fef08f9","feature":"monitoring","env":"dev","latency_ms":4101,"ttft_ms":50,"tool_name":"retrieval","tool_success":true}

@@ -7,7 +7,10 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  note: 99.5% of requests should succeed within 3000 ms over a rolling 28-day window; calibrate the latency threshold against your own baseline.
+  error_budget_example:
+    requests: 10000
+    allowed_bad_requests: 50
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5

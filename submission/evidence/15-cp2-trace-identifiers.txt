@@ -1,0 +1,18 @@
+Langfuse project: day13-k4-l3a-2A202602703
+Prompt: day13-chat
+Input for both traces: feature=qa; message="What is the refund policy?"
+Source: read-only Langfuse Public API observations filtered by metadata correlation_id.
+
+Baseline
+  correlation_id: req-c3ced892
+  trace_id: b8e4e80915b1c13abe58b5cb5b8ce2f4
+  prompt_label: baseline
+  prompt_version: 1
+  prompt_source: langfuse
+
+Candidate
+  correlation_id: req-ff4f51e8
+  trace_id: 40e613b6703e8a8a96b9f88dfe376a0e
+  prompt_label: candidate
+  prompt_version: 2
+  prompt_source: langfuse

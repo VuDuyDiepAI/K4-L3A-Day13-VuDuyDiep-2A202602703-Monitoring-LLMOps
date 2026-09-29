@@ -31,6 +31,16 @@ python scripts/validate_dashboard.py
 
 Validator kiểm tra cấu trúc contract; nó không thể chứng minh biểu đồ trong ảnh dùng đúng dữ liệu. Evidence runtime vẫn bắt buộc.
 
+## Dashboard local của lab
+
+Repo có server dashboard local chạy trực tiếp từ `data/logs.jsonl`, không cần cài thêm thư viện ngoài requirements. Sau khi có log từ workload, chạy:
+
+```powershell
+python scripts/dashboard_server.py
+```
+
+Mở `http://127.0.0.1:8765` trong trình duyệt. Dashboard tự refresh mỗi 30 giây, lọc cửa sổ 60 phút và hiển thị sáu panel cùng threshold lấy từ `config/dashboard.yaml`. Giữ server chạy khi chụp evidence runtime.
+
 ## Cách kiểm tra runtime
 
 1. Lưu ảnh baseline và giá trị P95/error/cost hiện tại.
